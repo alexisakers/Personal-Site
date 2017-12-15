@@ -1,0 +1,196 @@
+/*=== Headers ===*/
+
+h1.title {
+    margin: 0;    
+    font-family: "Catamaran";
+    font-size: 2em;    
+    font-weight: 900;
+}
+
+h2.subhead {
+    margin: 0;    
+    font-weight: 500;
+    font-family: "Catamaran";    
+}
+
+h2.section-title {
+    margin-top: 0;
+    margin-bottom: 8px;    
+    font-weight: 700;
+    font-family: "Catamaran";    
+}
+
+.subsection {
+    padding-top: 12px;        
+}
+
+/*=== Text ===*/
+
+p { font-size: 17px; font-family: "Open Sans"; }
+li { font-size: 17px; font-family: "Open Sans"; margin-bottom: 8px; }
+#bio { text-align: justify; }
+.first-line { margin-top: 0; }
+
+/*=== Links ===*/
+
+.blue-border {
+    border-bottom: 1px solid #0185BD;    
+}
+
+a {
+    text-decoration: none;
+    color: #0185BD;
+}
+
+a.no-border { border-bottom: none; }
+
+span.link-text {
+    outline-offset: 1px;    
+}
+
+.links {
+    margin-bottom: 16px;
+}
+
+a.icon-link {
+    margin-right: 16px;
+    border-bottom: none;
+    color: #828282;
+}
+
+/*=== Tab Bar ===*/
+
+.tab-bar {
+    margin-top: 8px;
+}
+
+.tab {
+    font-size: 1.3em;
+    display: inline-block;
+    margin-right: 15px;
+    font-family: "Catamaran"
+}
+
+.tab.selected {
+    padding-bottom: 3px;
+    border-bottom: 3px solid #0185BD;
+}
+
+.tab-bar .separator {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/*=== Adaptive Margins ===*/
+
+/* iPhone 5 in portrait */
+@media screen and (min-width: 0px) {
+    .page { padding-left: 16px; padding-right: 16px; }
+    .section {
+        padding-top: 22px;
+    }    
+}
+
+/* iPhone 6/7/8 and X in portrait */
+@media screen and (min-width: 375px) {
+    .page { padding-left: 18px; padding-right: 18px; }
+}
+
+/* iPhone 6 Plus in portrait */
+@media screen and (min-width: 414px) {
+    .page { padding-left: 20px; padding-right: 20px; }
+}
+
+/* iPhone 6 in landscape */
+@media screen and (min-width: 667px) {
+    .page { padding-left: 40px; padding-right: 40px; }
+}
+
+/* iPad in landscape with the sidebar open */
+@media screen and (min-width: 704px) {
+    .page { padding-left: 42px; padding-right: 42px; }
+    .section {
+        padding-top: 16px;
+    }    
+}
+
+/* iPhone 6 Plus in landscape */
+@media screen and (min-width: 736px) {
+    .page { padding-left: 60px; padding-right: 60px; }
+}
+
+/* Readable margins */
+@media only screen and (min-width: 780px) {
+    .page {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 88ex;
+    }
+    .section {
+        padding-top: 28px;
+    }
+}
+
+@media only screen and (min-width: 1367px) {
+    .section {
+        padding-top: 36px;
+    }
+}
+
+/* Compact */
+@media screen and (max-width: 750px) {
+    .page {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+/* Regular */
+@media screen and (min-width: 750px) {
+    .page {
+        padding-top: 44px;
+        padding-bottom: 44px;
+    }
+}
+
+/*=== Forms ===*/
+
+form {
+    padding-top: 16px;
+}
+
+input, textarea {
+    display: block;    
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;    
+    border: 2px solid #777777;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-family: "Open Sans";
+}
+
+button {
+    color: white;
+    background-color: #0185BD;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+}
+
+/*=== Footer ===*/
+
+footer {
+    padding-top: 22px;
+}
+
+p.footnote {
+    color: #777777;
+    font-size: 12px;
+}
