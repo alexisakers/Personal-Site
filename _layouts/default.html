@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+{% include meta.html %}
+
+<body>
+    <div class="page">
+        {% include navigation-palette.html tabs=site.tabs page_name=site.title %}
+        <div class="content">
+            {{ content }}
+        </div>
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<div id="navigation-palette">
+    <h1 class="title">{{ include.page_name }}</h1>
+    <div class="tab-bar">
+        {% for tab in include.tabs %}
+            {% if tab.title == page.tab_title %}
+                <div class="tab selected">
+            {% else %}
+                <div class="tab unselected">
+            {% endif %}
+                    <a href="{{ tab.path }}" class="no-border">{{ tab.title }}</a>
+                </div>    
+        {% endfor %}
+        <div class="separator"></div>
+    </div>
+</div>
