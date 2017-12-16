@@ -19,6 +19,6 @@ tabs:
   - title: "Projects"
     path: "/projects"
   - title: "Contact Me"
-    path: "contact"
+    path: "/contact"
 
 ga-id: "UA-106457303-2"
