@@ -3,13 +3,20 @@ layout: default
 title: Projects
 ---
 
-<div>
+Here's an overview of the projects I've worked on. You can find my open-source work on [GitHub](https://github.com/{{ site.github_username }}).
+    
+<div id="projects">
     
     {% for project in site.data.projects %}
-    <div class="project">
-        <h2>{{ project.name }}</h2>
-        <h3>{{ project.headline }}</h3>
-    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    {% include project.html project=project %}
+                </td>
+            </tr>
+        </tbody>
+    </table>
     {% endfor %}
-
+    
 </div>

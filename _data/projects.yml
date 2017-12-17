@@ -5,7 +5,18 @@
    ctas:
      - title: View source on GitHub
        url: https://github.com/alexaubry/BulletinBoard
-   icon_url: /assets/icons/bulletin-board.png
+     - title: Watch demo video
+       url: https://www.youtube.com/watch?v=DT58Lz7qpTA
+   banner_url: /assets/banners/BulletinBoard-Banner.png
+   description_lines: 
+     - "BulletinBoard is an open-source iOS library to present cards to the
+   user. It has an interface similar to the new iOS instant configuration UI and is
+   designed to fit the system look and feel."
+     - "The library provides a great level of customization. Programmers can
+     customize the appearance of the card, and add their own controls, such as date pickers and 
+     collection views to create a unique experience for their apps."
+     - "Building and maintaining BulletinBoard, I learned a lot about Auto Layout, view controller 
+     transitions and API design."
 
  - name: JavaScriptKit
    isFeatured: "true"
@@ -14,13 +25,16 @@
    ctas:
      - title: View source on GitHub
        url: https://github.com/alexaubry/JavaScriptKit
-   icon_url: /assets/icons/javascriptkit.png
+   description_lines: 
+     - "JavaScriptKit provides a type-safe interface to the JavaScript runtime for WebKit views.
+     It handles global functions, variables and custom scripts."
 
  - name: HTMLString
    isFeatured: "false"
    headline: HTML escaping and unescaping in Swift
-   quick_url: https://github.com/alexaubry/HTMLString
    ctas:
      - title: View source on GitHub
        url: https://github.com/alexaubry/HTMLString
-   icon_url: /assets/icons/htmlstring.png
+   description_lines:
+     - "HTMLString is a Swift library that escapes and unescapes HTML sequences, such as <code>&#38;amp;</code>.
+     I wrote it to power a server-side RSS parser and push notifications server."

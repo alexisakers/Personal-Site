@@ -1,8 +1,12 @@
 /*=== Headers ===*/
 
+h1, h2, h3 {
+    font-family: "Catamaran";
+    text-align: left;
+}
+
 h1.title {
     margin: 0;    
-    font-family: "Catamaran";
     font-size: 2em;    
     font-weight: 900;
 }
@@ -11,7 +15,6 @@ h2 {
     margin-top: 1.2em;
     margin-bottom: 8px;    
     font-weight: 700;
-    font-family: "Catamaran";    
 }
 
 div.content {
@@ -188,4 +191,34 @@ footer {
 p.footnote {
     color: #777777;
     font-size: 12px;
+}
+
+/*=== Projects ===*/
+
+#projects td.card > h2 {
+    margin-top: 0px;
+}
+
+h3.headline {
+    margin-top: 0px;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+img.banner {
+    width: 100%;
+}
+
+#projects table {
+    table-layout: fixed;
+}
+
+#projects .separator {
+    padding-top: 26px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#projects ul.ctas {
+    padding-top: 12px;
+    margin-bottom: 0px;
 }
