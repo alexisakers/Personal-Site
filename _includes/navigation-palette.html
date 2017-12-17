@@ -1,11 +1,11 @@
 <div id="navigation-palette">
     <h1 class="title">{{ include.page_name }}</h1>
-    <div class="tab-bar">
+    <div class="tab-bar" role="Tablist">
         {% for tab in include.tabs %}
             {% if tab.title == page.title %}
-                <div class="tab selected">
+                <div class="tab selected" role="tab" aria-selected="true">
             {% else %}
-                <div class="tab unselected">
+                <div class="tab unselected" role="tab" aria-selected="true">
             {% endif %}
                     <a href="{{ tab.path }}" class="no-border">{{ tab.title }}</a>
                 </div>    
