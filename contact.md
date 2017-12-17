@@ -3,7 +3,7 @@ layout: default
 title: Contact Me
 ---
 
-You can the form below to send me an email.
+You can use the form below to send me an email.
 
 You can also find me on [Twitter](https://twitter.com/{{ site.twitter_username }}) and [GitHub](https://github.com/{{ site.github_username }}).
 
