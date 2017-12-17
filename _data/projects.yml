@@ -1,6 +1,7 @@
  - name: BulletinBoard
    isFeatured: "true"
    headline: General-purpose contextual cards for iOS
+   quick_url: https://github.com/alexaubry/BulletinBoard
    ctas:
      - title: View source on GitHub
        url: https://github.com/alexaubry/BulletinBoard
@@ -9,6 +10,7 @@
  - name: JavaScriptKit
    isFeatured: "true"
    headline: JavaScriptCore replacement for WKWebView
+   quick_url: https://github.com/alexaubry/JavaScriptKit
    ctas:
      - title: View source on GitHub
        url: https://github.com/alexaubry/JavaScriptKit
@@ -17,6 +19,7 @@
  - name: HTMLString
    isFeatured: "false"
    headline: HTML escaping and unescaping in Swift
+   quick_url: https://github.com/alexaubry/HTMLString
    ctas:
      - title: View source on GitHub
        url: https://github.com/alexaubry/HTMLString
