@@ -222,3 +222,22 @@ img.banner {
     padding-top: 12px;
     margin-bottom: 0px;
 }
+
+/*=== Error ===*/
+
+.error-container {
+    padding-top: 44px;
+}
+
+.panda {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 44px;
+}
+
+.error-description {
+    text-align: center;
+}

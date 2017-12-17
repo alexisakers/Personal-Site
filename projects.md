@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Projects
+title: Alexis Aubry
+tab_name: Projects
 ---
 
 Here's an overview of the projects I've worked on. You can find my open-source work on [GitHub](https://github.com/{{ site.github_username }}).

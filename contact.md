@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Contact Me
+title: Alexis Aubry
+tab_name: Contact Me
 ---
 
 You can use the form below to send me an email.

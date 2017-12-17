@@ -5,7 +5,7 @@
 
 <body>
     <div class="page">
-        {% include navigation-palette.html tabs=site.tabs page_name=site.title %}
+        {% include navigation-palette.html tabs=site.tabs page_name=page.title tab_name=page.tab_name %}
         <div class="content">
             {{ content }}
         </div>
