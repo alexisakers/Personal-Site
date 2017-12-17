@@ -1,14 +1,20 @@
 <footer>
     <div class="links">
-        <a class="icon-link color-black" alt="GitHub" href="https://github.com/{{ site.github_username }}">
-            <i class="fab fa-github fa-2x"></i>
-        </a>
-        <a class="icon-link color-blue" alt="Twitter" href="https://twitter.com/{{ site.twitter_username }}">
-            <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a class="icon-link color-violet" alt="Contact Me" href="/contact">
-            <i class="fas fa-envelope fa-2x"></i>
-        </a>
+        <p>
+            <a class="icon-link" href="https://github.com/{{ site.github_username }}">
+                <i class="icon-link fab fa-github fa-lg"></i> <span class="icon-link">GitHub</span>
+            </a>
+            <span class="footer-separator">•</span>
+            <a class="icon-link" href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="icon-link fab fa-twitter fa-lg"></i> <span class="icon-link">Twitter</span>
+            </a>
+            {% unless page.title == "Contact Me" %}
+            <span class="footer-separator">•</span>
+            <a class="icon-link" href="/contact">
+                <i class="icon-link fas fa-envelope fa-lg"></i> <span class="icon-link">Contact Me</span>
+            </a>
+            {% endunless %}
+        </p>
     </div>
     <p class="footnote">Copyright © {{ site.copright_years }} {{ site.owner }}. All rights reserved.</p>
 </footer>

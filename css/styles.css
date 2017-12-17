@@ -14,6 +14,10 @@ h2 {
     font-family: "Catamaran";    
 }
 
+div.content {
+    padding-top: 8px;
+}
+
 /*=== Text ===*/
 
 p { font-size: 17px; font-family: "Open Sans"; margin-top: 1em; margin-bottom: 0px; }
@@ -40,9 +44,23 @@ span.link-text {
 }
 
 a.icon-link {
-    margin-right: 16px;
     border-bottom: none;
     color: #828282;
+    margin-right: 8px;
+}
+
+i.icon-link {
+    color: #828282;
+    margin-right: 8px;
+}
+
+span.icon-link {
+    border-bottom: 1px solid #828282;
+}
+
+span.footer-separator {
+    color: #828282;
+    margin-right: 8px;
 }
 
 /*=== Tab Bar ===*/
@@ -135,7 +153,6 @@ a.icon-link {
 
 form {
     padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 input, textarea {
@@ -159,7 +176,7 @@ button {
     font-family: "Open Sans";
     font-weight: bold;
     border: none;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 /*=== Footer ===*/
