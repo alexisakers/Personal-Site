@@ -5,7 +5,7 @@
             {% if tab.title == page.title %}
                 <div class="tab selected" role="tab" aria-selected="true">
             {% else %}
-                <div class="tab unselected" role="tab" aria-selected="true">
+                <div class="tab unselected" role="tab" aria-selected="false">
             {% endif %}
                     <a href="{{ tab.path }}" class="no-border">{{ tab.title }}</a>
                 </div>    
