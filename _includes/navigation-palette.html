@@ -1,8 +1,8 @@
 <div id="navigation-palette">
-    <h1 class="title">{{ include.page_name }}</h1>
+    <h1 class="title">{{ include.title }}</h1>
     <div class="tab-bar" role="Tablist">
         {% for tab in include.tabs %}
-            {% if tab.title == page.tab_name %}
+            {% if tab.title == page.page_name %}
                 <div class="tab selected" role="tab" aria-selected="true">
             {% else %}
                 <div class="tab unselected" role="tab" aria-selected="false">

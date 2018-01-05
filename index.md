@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alexis Aubry
-tab_name: About
+page_name: About
 ---
 
 Hi, I'm Alexis &#x1F44B;&#x1F3FB;
