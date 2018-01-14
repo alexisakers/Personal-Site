@@ -1,5 +1,10 @@
 <div id="navigation-palette">
-    <h1 class="title">{{ include.title }}</h1>
+    <div>
+        <h1 class="title">{{ include.title }}</h1>
+        {% if site.available_for_hire %}
+            <div class="hire-badge">Availabe for Hire</div>    
+        {% endif %}
+    </div>
     <div class="tab-bar" role="Tablist">
         {% for tab in include.tabs %}
             {% if tab.title == page.page_name %}
