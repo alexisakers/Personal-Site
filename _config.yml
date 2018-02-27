@@ -22,5 +22,4 @@ tabs:
     path: "/contact"
 
 ga-id: "UA-106457303-2"
-available_for_hire: true
-hiring_location: "Berlin or remotely"
+available_for_hire: false

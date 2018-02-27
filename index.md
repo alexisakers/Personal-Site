@@ -6,7 +6,9 @@ page_name: About
 
 Hi, I'm Alexis &#x1F44B;&#x1F3FB;
 
-When I'm not studying law at <a href="https://www.u-paris2.fr" aria-label="Paris 2 University">Paris-II University</a>, I build apps for Apple platforms and work on open-source software.
+I'm a software engineer at [Wire](https://wire.com/en/) in Berlin, and a remote law student rom 
+<a href="https://www.u-paris2.fr" aria-label="Paris 2 University">Paris-II University</a>.
+In my free time, I build apps for Apple platforms and work on open-source software.
 I am passionate about arts, design and science.
 
 {% if site.available_for_hire %}
