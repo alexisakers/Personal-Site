@@ -5,16 +5,18 @@
             <div class="hire-badge">Availabe for Hire</div>    
         {% endif %}
     </div>
-    <div class="tab-bar" role="Tablist">
-        {% for tab in include.tabs %}
-            {% if tab.title == page.page_name %}
-                <div class="tab selected" role="tab" aria-selected="true">
-            {% else %}
-                <div class="tab unselected" role="tab" aria-selected="false">
-            {% endif %}
-                    <a href="{{ tab.path }}" class="no-border">{{ tab.title }}</a>
-                </div>    
-        {% endfor %}
-        <div class="separator"></div>
+    <div id="tab-bar-container">
+        <ul class="tab-bar" role="Tablist">
+            {% for tab in include.tabs %}
+                {% if tab.title == page.page_name %}
+                    <li class="tab selected" role="tab" aria-selected="true">
+                {% else %}
+                    <li class="tab unselected" role="tab" aria-selected="false">
+                {% endif %}
+                        <a href="{{ tab.path }}" class="no-border">{{ tab.title }}</a>
+                    </li>    
+            {% endfor %}
+            <!--<div class="separator"></div>-->
+        </ul>    
     </div>
 </div>
