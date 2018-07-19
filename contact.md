@@ -6,7 +6,7 @@ page_name: Contact Me
 
 You can use the form below to send me an email.
 
-You can also find me on [Twitter](https://twitter.com/{{ site.twitter_username }}) and [GitHub](https://github.com/{{ site.github_username }}).
+You can also find me on <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a> and <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>.
 
 <form method="POST" action="http://formspree.io/me@alexaubry.fr">
     <input type="text" name="name" placeholder="Your name">                    

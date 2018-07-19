@@ -38,8 +38,8 @@ div.content {
 
 p { font-size: 17px; font-family: "Open Sans"; margin-top: 1em; margin-bottom: 0px; }
 li { font-size: 17px; font-family: "Open Sans"; margin-bottom: 8px; text-align: left; }
-.content { text-align: justify; }
 .first-line { margin-top: 0; }
+strong { font-weight: 600; }
 
 /*=== Links ===*/
 
