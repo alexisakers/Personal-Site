@@ -21,6 +21,5 @@ tabs:
   - title: "Contact Me"
     path: "/contact"
 
-ga-id: "UA-106457303-2"
-available_for_hire: true
+available_for_hire: false
 hiring_location: "Berlin or remotely"
