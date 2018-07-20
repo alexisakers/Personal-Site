@@ -8,7 +8,7 @@ h1, h2, h3 {
 h1.title {
     margin: 0;    
     font-size: 2em;    
-    font-weight: 900;
+    font-weight: 800;
     display: inline-block;
     vertical-align: middle;
     margin-right: 8px;
@@ -90,6 +90,7 @@ span.footer-separator {
     display: inline-block;
     margin-right: 15px;
     font-family: "Catamaran";
+    font-weight: 500;
 }
 
 .tab.selected {
@@ -190,7 +191,7 @@ button {
     font-size: 16px;
     border-radius: 8px;
     font-family: "Open Sans";
-    font-weight: bold;
+    font-weight: 700;
     border: none;
     padding: 1rem 2rem;
 }
@@ -215,7 +216,7 @@ p.footnote {
 h3.headline {
     margin-top: 0px;
     font-size: 1.25em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 img.banner {
@@ -253,4 +254,69 @@ img.banner {
 
 .error-description {
     text-align: center;
+}
+
+/*=== Fonts ===*/
+
+/* catamaran-500 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Catamaran Medium'), local('Catamaran-Medium'),
+         url('../fonts/catamaran-v4-latin-500.woff2') format('woff2');
+}
+
+/* catamaran-700 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Catamaran Bold'), local('Catamaran-Bold'),
+         url('../fonts/catamaran-v4-latin-700.woff2') format('woff2');
+}
+
+/* catamaran-800 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Catamaran ExtraBold'), local('Catamaran-ExtraBold'),
+         url('../fonts/catamaran-v4-latin-800.woff2') format('woff2');
+}
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2');
+  }
+
+/* open-sans-italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'),
+         url('../fonts/open-sans-v15-latin-italic.woff2') format('woff2');
+}
+
+/* open-sans-600 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+         url('../fonts/open-sans-v15-latin-600.woff2') format('woff2');
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url('../fonts/open-sans-v15-latin-700.woff2') format('woff2');
 }
