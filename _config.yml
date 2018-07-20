@@ -4,7 +4,7 @@ email: me@alexaubry.fr
 copright_years: "2017 - 2018"
 
 description: >-
-  Hey, I'm Alexis! I'm a French law student and software engineer.
+  Hey, I'm Alexis! I'm a French software engineer and CS student.
   I build apps for Apple platforms and work on open source projects.
 
 url: "https://alexaubry.fr"
@@ -18,7 +18,7 @@ tabs:
     path: "/"
   - title: "Projects"
     path: "/projects"
-  - title: "Contact Me"
+  - title: "Contact"
     path: "/contact"
 
 available_for_hire: false

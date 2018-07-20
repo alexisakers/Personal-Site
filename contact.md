@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alexis Aubry
-page_name: Contact Me
+page_name: Contact
 ---
 
 You can use the form below to send me an email.
