@@ -61,21 +61,21 @@ span.link-text {
 
 a.icon-link {
     border-bottom: none;
-    color: #828282;
+    color: #696969;
     margin-right: 8px;
 }
 
 i.icon-link {
-    color: #828282;
+    color: #696969;
     margin-right: 8px;
 }
 
 span.icon-link {
-    border-bottom: 1px solid #828282;
+    border-bottom: 1px solid #696969;
 }
 
 span.footer-separator {
-    color: #828282;
+    color: #696969;
     margin-right: 8px;
 }
 
@@ -177,7 +177,7 @@ input, textarea {
     box-sizing: border-box;
     width: 100%;
     max-width: 100%;    
-    border: 2px solid #777777;
+    border: 2px solid #696969;
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -203,7 +203,7 @@ footer {
 }
 
 p.footnote {
-    color: #777777;
+    color: #696969;
     font-size: 12px;
 }
 
