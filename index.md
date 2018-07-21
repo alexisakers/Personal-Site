@@ -22,7 +22,3 @@ Hi, I'm Alexis <span aria-hidden="true">👋🏻</span>
 {% if site.available_for_hire %}
 I am currently looking for full-time software engineering position in {{ site.hiring_location }}.
 {% endif %}
-
-My open-source work can be found on <a href="https://github.com/alexaubry" target="_blank">GitHub</a>.
-
-Oh, and I'm on <a href="https://twitter.com/_alexaubry" target="_blank">Twitter</a>!

@@ -1,3 +1,20 @@
+ - name: MLMOJI
+   isFeatured: "true"
+   headline: Hand-Drawn Emoji Classifier
+   quick_url: https://github.com/alexaubry/MLMOJI
+   ctas:
+     - title: View source on GitHub
+       url: https://github.com/alexaubry/MLMOJI
+     - title: Watch demo video
+       url: https://www.youtube.com/watch?v=Z7jdLrorctQ
+   banner_url: /assets/banners/MLMOJI-Banner.png
+   description_lines: 
+     - "MLMOJI is a Swift Playground Book exploring hand drawing and image classification. Using
+     a neural network, it recognizes the emoji you draw."
+     - "The neural network was trained from scratch, using data augmentation and transfer learning.
+     Leveraging the features of the Swift Playrgound Book format, it brings machine learning to life 
+    and provides a guided intro to data augmentation."
+
  - name: BulletinBoard
    isFeatured: "true"
    headline: General-purpose contextual cards for iOS
@@ -15,8 +32,8 @@
      - "The library provides a great level of customization. Programmers can
      customize the appearance of the card, and add their own controls, such as date pickers and 
      collection views to create a unique experience for their apps."
-     - "Building and maintaining BulletinBoard, I learned a lot about Auto Layout, view controller 
-     transitions and API design."
+     - "Building and maintaining BulletinBoard, I extended my knowledge about Auto Layout, view  
+     controller transitions and API design."
 
  - name: JavaScriptKit
    isFeatured: "true"
