@@ -2,6 +2,7 @@
 layout: default
 title: Alexis Aubry
 page_name: Projects
+lang: en
 ---
 
 Here's an overview of the projects I've worked on. 

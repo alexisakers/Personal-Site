@@ -2,6 +2,7 @@
 layout: default
 title: Alexis Aubry
 page_name: About
+lang: en
 ---
 
 Hi, I'm Alexis <span aria-hidden="true">👋🏻</span>

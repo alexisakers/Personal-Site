@@ -2,6 +2,7 @@
 layout: default
 title: Alexis Aubry
 page_name: Contact
+lang: en
 ---
 
 You can use the form below to send me an email.
