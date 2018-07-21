@@ -23,7 +23,6 @@ Hi, I'm Alexis <span aria-hidden="true">👋🏻</span>
 I am currently looking for full-time software engineering position in {{ site.hiring_location }}.
 {% endif %}
 
-You can read my CV <a href="/cv/Alexis_Aubry_CV_01-2018.pdf" target="_blank">here</a> (and <a href="/cv/Alexis_Aubry_CV_01-2018_fr.pdf" target="_blank">there</a> in French).
 My open-source work can be found on <a href="https://github.com/alexaubry" target="_blank">GitHub</a>.
 
 Oh, and I'm on <a href="https://twitter.com/_alexaubry" target="_blank">Twitter</a>!
