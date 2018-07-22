@@ -2,11 +2,26 @@
 <h3 class="headline">{{ include.project.headline }}</h3>
 
 {% if project.banner_url %}
-<img class="banner" src="{{ project.banner_url }}" alt="Presentation banner for {{ include.project.name }}">
+<div class="banner">
+    <div class="video-wrapper">
+        {% if project.yt_video_id %}    
+        <div id="{{ project.yt_video_id }}" class="banner-image-container play" aria-role="button" aria-valuetext="Play demo video" onclick="loadEmbed('{{ project.yt_video_id }}')">
+            <img class="play" class="banner-image" src="{{ project.banner_url }}"/>
+            <div class="play-button-container">
+                <div class="play-button-blur">
+                    <img src="/assets/play-button.png" class="play-image"/>
+                </div>
+            </div>        
+        </div>
+        {% else %}
+        <img class="banner-image" src="{{ project.banner_url }}" alt="Presentation banner for {{ include.project.name }}"/>
+        {% endif %}
+    </div>
+</div>
 {% endif %}
 
 {% for line in include.project.description_lines %}
-<p>{{ line }}</p>
+<p style="text-align: justify">{{ line }}</p>
 {% endfor %}
 
 <ul class="ctas">

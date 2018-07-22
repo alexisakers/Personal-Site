@@ -8,6 +8,7 @@
      - title: Watch demo video
        url: https://www.youtube.com/watch?v=Z7jdLrorctQ
    banner_url: /assets/banners/MLMOJI-Banner.png
+   yt_video_id: Z7jdLrorctQ
    description_lines: 
      - "MLMOJI is a Swift Playground Book exploring hand drawing and image classification. Using
      a neural network, it recognizes the emoji you draw."
@@ -23,8 +24,9 @@
      - title: View source on GitHub
        url: https://github.com/alexaubry/BulletinBoard
      - title: Watch demo video
-       url: https://www.youtube.com/watch?v=DT58Lz7qpTA
+       url: https://www.youtube.com/watch?v=f4UErY-epYY
    banner_url: /assets/banners/BulletinBoard-Banner.png
+   yt_video_id: f4UErY-epYY
    description_lines: 
      - "BulletinBoard is an open-source iOS library to present cards to the
    user. It has an interface similar to the new iOS instant configuration UI and is
