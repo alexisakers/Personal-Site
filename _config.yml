@@ -2,12 +2,12 @@ title: Alexis Aubry
 owner: Alexis Aubry
 email: me@alexaubry.fr
 copright_years: "2017 - 2018"
+url: "https://alexaubry.fr"
 
 description: >-
   Hey, I'm Alexis! I'm a French software engineer and CS student.
   I build apps for Apple platforms and work on open source projects.
 
-url: "https://alexaubry.fr"
 twitter_username: _alexaubry
 github_username:  alexaubry
 
@@ -23,3 +23,6 @@ tabs:
 
 available_for_hire: false
 hiring_location: "Berlin or remotely"
+
+plugins:
+  - jekyll-sitemap
