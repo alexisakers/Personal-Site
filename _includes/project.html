@@ -5,7 +5,7 @@
 <div class="banner">
     <div class="video-wrapper">
         {% if project.yt_video_id %}    
-        <div id="{{ project.yt_video_id }}" class="banner-image-container play" aria-role="button" aria-valuetext="Play demo video" onclick="loadEmbed('{{ project.yt_video_id }}')">
+        <div id="{{ project.yt_video_id }}" class="play" aria-role="button" aria-valuetext="Play demo video" onclick="loadEmbed('{{ project.yt_video_id }}')">
             <img class="play" class="banner-image" src="{{ project.banner_url }}"/>
             <div class="play-button-container">
                 <div class="play-button-blur">
