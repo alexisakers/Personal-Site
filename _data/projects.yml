@@ -1,3 +1,21 @@
+ - name: ScaleBook
+   isFeatured: "true"
+   headline: Simple Weight Tracker
+   quick_url: https://geo.itunes.apple.com/us/app/scalebook/id1422370817?ls=1&mt=8
+   ctas:
+     - title: Download on the App Store
+       url: https://geo.itunes.apple.com/us/app/scalebook/id1422370817?ls=1&mt=8
+     - title: Learn More
+       url: https://scalebook.alexaubry.fr/
+   banner_url: /assets/banners/ScaleBook-Banner.png
+   banner_needs_border: banner-image-bordered
+   description_lines: 
+     - "ScaleBook is an iPhone application that lets you track your weight in a simple and safe environment
+     (no goals, no judgement or notifications). It was designed with privacy and accessibility
+     in mind."
+     - "Developing this application was an opportunity to learn about the HealthKit API, archiecture
+     best practices and UI testing."
+
  - name: MLMOJI
    isFeatured: "true"
    headline: Hand-Drawn Emoji Classifier
@@ -8,6 +26,7 @@
      - title: Watch demo video
        url: https://www.youtube.com/watch?v=Z7jdLrorctQ
    banner_url: /assets/banners/MLMOJI-Banner.png
+   banner_needs_border: true
    yt_video_id: Z7jdLrorctQ
    description_lines: 
      - "MLMOJI is a Swift Playground Book exploring hand drawing and image classification. Using
@@ -26,6 +45,7 @@
      - title: Watch demo video
        url: https://www.youtube.com/watch?v=f4UErY-epYY
    banner_url: /assets/banners/BulletinBoard-Banner.png
+   banner_needs_border: false
    yt_video_id: f4UErY-epYY
    description_lines: 
      - "BulletinBoard is an open-source iOS library to present cards to the
