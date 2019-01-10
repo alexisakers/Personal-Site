@@ -4,11 +4,17 @@ title: Alexis Aubry
 page_name: Projects
 lang: en
 ---
-
-Here's an overview of the projects I've worked on. My open-source work can be found on <a href="https://github.com/alexaubry" target="_blank">GitHub</a>.
     
 <div id="projects">
-    
+    <div class="topic-badge-container">
+        {% for project in site.data.projects %}
+        {% if project.isFeatured == "true" %}
+        <div class="topic-badge" style="background: {{ project.tint }}"><a class="no-border" style="color: {{ project.text }}" href="#{{ project.id }}">{{ project.name }}</a></div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <a class="callout" href="https://github.com/alexaubry" target="_blank">More on Github</a>
+
     {% for project in site.data.projects %}
     <table>
         <tbody>

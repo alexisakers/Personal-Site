@@ -1,5 +1,8 @@
  - name: ScaleBook
    isFeatured: "true"
+   tint: "#4153AF"
+   text: "white"
+   id: "scalebook"
    headline: Simple Weight Tracker
    quick_url: https://geo.itunes.apple.com/us/app/scalebook/id1422370817?ls=1&mt=8
    ctas:
@@ -18,6 +21,9 @@
 
  - name: MLMOJI
    isFeatured: "true"
+   tint: "#3A373A"
+   text: "#FEEB03"
+   id: "mlmoji"
    headline: Hand-Drawn Emoji Classifier
    quick_url: https://github.com/alexaubry/MLMOJI
    ctas:
@@ -37,6 +43,9 @@
 
  - name: BulletinBoard
    isFeatured: "true"
+   tint: "#027AFF"
+   text: "white"
+   id: "bulletinboard"
    headline: General-purpose contextual cards for iOS
    quick_url: https://github.com/alexaubry/BulletinBoard
    ctas:
@@ -59,6 +68,9 @@
 
  - name: JavaScriptKit
    isFeatured: "true"
+   tint: "#F7DF20"
+   text: "black"
+   id: "javascriptkit"
    headline: JavaScriptCore replacement for WKWebView
    quick_url: https://github.com/alexaubry/JavaScriptKit
    ctas:
