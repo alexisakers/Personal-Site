@@ -11,7 +11,7 @@ Hi, I'm Alexis <span aria-hidden="true">👋🏻</span>
 
 <span aria-hidden="true">🐻</span> I live and work in Berlin
 
-<span aria-hidden="true">👨🏻‍💻</span> I'm an **engineer** on the <a href="https://wire.com" target="_blank">Wire</a> iOS app
+<span aria-hidden="true">👨🏻‍💻</span> I'm an **engineer** on the <a href="https://wire.com" target="_blank">**Wire**</a> iOS app
 
 <span aria-hidden="true">🎓</span> I'm a **computer science student** at Paris-Lumières University
 
