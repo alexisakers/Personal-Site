@@ -9,7 +9,7 @@ lang: en
     <div class="topic-badge-container">
         {% for project in site.data.projects %}
         {% if project.isFeatured == "true" %}
-        <div class="topic-badge" style="background: {{ project.tint }}"><a class="no-border" style="color: {{ project.text }}" href="#{{ project.id }}">{{ project.name }}</a></div>
+        <div class="topic-badge" style="background: {{ project.tint }}" onclick="window.open('#{{ project.id }}', '_self')"><a class="no-border" style="color: {{ project.text }}" href="#{{ project.id }}">{{ project.name }}</a></div>
         {% endif %}
         {% endfor %}
     </div>
