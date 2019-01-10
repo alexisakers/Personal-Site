@@ -1,7 +1,27 @@
+/*=== Colors ===*/
+
+:root {
+    --background-color: white;
+    --text-color: black; 
+    --tint-color: #1b77cd;
+    --footer-color: #696969;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #2A2B23;
+        --text-color: #F4F4F2;
+        --tint-color: #9A85FF;
+        --footer-color: #898693;
+    }
+}
+
+
 /*=== Headers ===*/
 
 body {
-    background-color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 h1.title {
@@ -34,8 +54,7 @@ nav, footer {
     display: inline-block;
     vertical-align: middle;
     padding: 8px;
-    background: #1b77cd;
-    color: white;
+    color: var(--text-color);
     border-radius: 8px;
 }
 
@@ -51,8 +70,6 @@ nav, footer {
     vertical-align: middle;
     padding: 12px;
     margin: 12px;
-    background: #1b77cd;
-    color: white;
     border-radius: 12px;
     font-size: 17px;
     cursor: pointer;
@@ -72,8 +89,8 @@ strong { font-weight: 600; }
 
 a {
     text-decoration: none;
-    color: #1b77cd;
-    border-bottom: 1px solid #1b77cd;    
+    color: var(--tint-color);
+    border-bottom: 1px solid var(--tint-color);    
 }
 
 a.no-border { border-bottom: none !important; }
@@ -82,7 +99,7 @@ a.callout {
     display: block;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: var(--text-color);
     font-weight: bold;
     margin: 16px;
     border: none;
@@ -99,21 +116,21 @@ span.link-text {
 
 a.icon-link {
     border-bottom: none;
-    color: #696969;
+    color: var(--footer-color);
     margin-right: 8px;
 }
 
 i.icon-link {
-    color: #696969;
+    color: var(--footer-color);
     margin-right: 8px;
 }
 
 span.icon-link {
-    border-bottom: 1px solid #696969;
+    border-bottom: 1px solid var(--footer-color);
 }
 
 span.footer-separator {
-    color: #696969;
+    color: var(--footer-color);
     margin-right: 8px;
 }
 
@@ -142,16 +159,12 @@ li.tab {
 
 .tab.selected {
     padding-bottom: 6px;
-    border-bottom: 3px solid #1b77cd;
+    border-bottom: 3px solid var(--tint-color);
 }
 
 .tab.unselected {
     padding-bottom: 6px;
-    border-bottom: 3px solid #ffffff;
-}
-
-.tab-bar .separator {
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 3px solid var(--background-color);
 }
 
 /*=== Adaptive Margins ===*/
@@ -224,16 +237,18 @@ input, textarea {
     box-sizing: border-box;
     width: 100%;
     max-width: 100%;    
-    border: 2px solid #696969;
+    border: 2px solid var(--footer-color);
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
     font-size: 14px;
+    background: var(--background-color);
+    color: var(--text-color);
 }
 
 button {
     color: white;
-    background-color: #1b77cd;
+    background-color: var(--tint-color);
     font-size: 16px;
     border-radius: 8px;
     font-weight: 700;
@@ -248,7 +263,7 @@ footer {
 }
 
 p.footnote {
-    color: #696969;
+    color: var(--footer-color);
     font-size: 12px;
 }
 
