@@ -1,18 +1,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    {% if page.page_name == "About" %}
+    <title>{{ site.title }}</title>
+    {% else %}
     <title>{{ page.page_name }} | {{ site.title }}</title>
+    {% endif %}
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="/scripts/ui-controls.js"></script>
     <!-- Pride Bar @pridecodes -->
     <link rel="stylesheet" href="https://cdn.pride.codes/css/bar_body.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:500,700,800|Open+Sans:400,700">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga-id }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', '{{ site.ga-id }}');
-    </script>
 </head>

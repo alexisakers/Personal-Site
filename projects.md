@@ -2,9 +2,10 @@
 layout: default
 title: Alexis Aubry
 page_name: Projects
+lang: en
 ---
 
-Here's an overview of the projects I've worked on. You can find my open-source work on [GitHub](https://github.com/{{ site.github_username }}).
+Here's an overview of the projects I've worked on. My open-source work can be found on <a href="https://github.com/alexaubry" target="_blank">GitHub</a>.
     
 <div id="projects">
     

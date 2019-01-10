@@ -1,3 +1,40 @@
+ - name: ScaleBook
+   isFeatured: "true"
+   headline: Simple Weight Tracker
+   quick_url: https://geo.itunes.apple.com/us/app/scalebook/id1422370817?ls=1&mt=8
+   ctas:
+     - title: Download on the App Store
+       url: https://geo.itunes.apple.com/us/app/scalebook/id1422370817?ls=1&mt=8
+     - title: Learn More
+       url: https://scalebook.alexaubry.fr/
+   banner_url: /assets/banners/ScaleBook-Banner.png
+   banner_needs_border: banner-image-bordered
+   description_lines: 
+     - "ScaleBook is an iPhone application that lets you track your weight in a simple and safe environment
+     (no goals, no judgement or notifications). It was designed with privacy and accessibility
+     in mind."
+     - "Developing this application was an opportunity to learn about the HealthKit API, architecture
+     best practices and UI testing."
+
+ - name: MLMOJI
+   isFeatured: "true"
+   headline: Hand-Drawn Emoji Classifier
+   quick_url: https://github.com/alexaubry/MLMOJI
+   ctas:
+     - title: View source on GitHub
+       url: https://github.com/alexaubry/MLMOJI
+     - title: Watch demo video
+       url: https://www.youtube.com/watch?v=Z7jdLrorctQ
+   banner_url: /assets/banners/MLMOJI-Banner.png
+   banner_needs_border: true
+   yt_video_id: Z7jdLrorctQ
+   description_lines: 
+     - "MLMOJI is a Swift Playground Book exploring hand drawing and image classification. Using
+     a neural network, it recognizes the emoji you draw."
+     - "The neural network was trained from scratch, using data augmentation and transfer learning.
+     Leveraging the features of the Swift Playrgound Book format, it brings machine learning to life 
+    and provides a guided intro to data augmentation."
+
  - name: BulletinBoard
    isFeatured: "true"
    headline: General-purpose contextual cards for iOS
@@ -6,8 +43,10 @@
      - title: View source on GitHub
        url: https://github.com/alexaubry/BulletinBoard
      - title: Watch demo video
-       url: https://www.youtube.com/watch?v=DT58Lz7qpTA
+       url: https://www.youtube.com/watch?v=f4UErY-epYY
    banner_url: /assets/banners/BulletinBoard-Banner.png
+   banner_needs_border: false
+   yt_video_id: f4UErY-epYY
    description_lines: 
      - "BulletinBoard is an open-source iOS library to present cards to the
    user. It has an interface similar to the new iOS instant configuration UI and is
@@ -15,8 +54,8 @@
      - "The library provides a great level of customization. Programmers can
      customize the appearance of the card, and add their own controls, such as date pickers and 
      collection views to create a unique experience for their apps."
-     - "Building and maintaining BulletinBoard, I learned a lot about Auto Layout, view controller 
-     transitions and API design."
+     - "Building and maintaining BulletinBoard, I extended my knowledge about Auto Layout, view  
+     controller transitions and API design."
 
  - name: JavaScriptKit
    isFeatured: "true"

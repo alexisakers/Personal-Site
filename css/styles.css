@@ -1,22 +1,30 @@
 /*=== Headers ===*/
 
-h1, h2, h3 {
+body {
+    background-color: white;
+}
+
+h1 {
     font-family: 'Palatino', 'Times New Roman', Times, serif;
     text-align: left;
+}
+
+h2, h3 {
+    font-family: 'Catamaran';
 }
 
 h1.title {
     text-align: center;    
     font-size: 2em;    
     font-weight: 900;
-    vertical-align: middle;
+    display: block;
     margin-right: 8px;
     margin-bottom: 24px;
 }
 
 h2 {
     margin-top: 1.2em;
-    margin-bottom: 8px;    
+    margin-bottom: 0px;    
     font-weight: 700;
 }
 
@@ -29,7 +37,7 @@ div.content {
     display: inline-block;
     vertical-align: middle;
     padding: 8px;
-    background: #0185BD;
+    background: #1b77cd;
     color: white;
     border-radius: 8px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
@@ -39,15 +47,15 @@ div.content {
 
 p { font-size: 17px; font-family: "Open Sans"; margin-top: 1em; margin-bottom: 0px; }
 li { font-size: 17px; font-family: "Open Sans"; margin-bottom: 8px; text-align: left; }
-.content { text-align: justify; }
 .first-line { margin-top: 0; }
+strong { font-weight: 600; }
 
 /*=== Links ===*/
 
 a {
     text-decoration: none;
-    color: #0185BD;
-    border-bottom: 1px solid #0185BD;    
+    color: #1b77cd;
+    border-bottom: 1px solid #1b77cd;    
 }
 
 a.no-border { border-bottom: none !important; }
@@ -62,21 +70,21 @@ span.link-text {
 
 a.icon-link {
     border-bottom: none;
-    color: #828282;
+    color: #696969;
     margin-right: 8px;
 }
 
 i.icon-link {
-    color: #828282;
+    color: #696969;
     margin-right: 8px;
 }
 
 span.icon-link {
-    border-bottom: 1px solid #828282;
+    border-bottom: 1px solid #696969;
 }
 
 span.footer-separator {
-    color: #828282;
+    color: #696969;
     margin-right: 8px;
 }
 
@@ -101,11 +109,12 @@ li.tab {
     display: inline-block;
     margin-right: 15px;
     font-family: "Catamaran";
+    font-weight: 500;
 }
 
 .tab.selected {
     padding-bottom: 3px;
-    border-bottom: 3px solid #0185BD;
+    border-bottom: 3px solid #1b77cd;
 }
 
 .tab.unselected {
@@ -187,7 +196,7 @@ input, textarea {
     box-sizing: border-box;
     width: 100%;
     max-width: 100%;    
-    border: 2px solid #777777;
+    border: 2px solid #696969;
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -197,11 +206,11 @@ input, textarea {
 
 button {
     color: white;
-    background-color: #0185BD;
+    background-color: #1b77cd;
     font-size: 16px;
     border-radius: 8px;
     font-family: "Open Sans";
-    font-weight: bold;
+    font-weight: 700;
     border: none;
     padding: 1rem 2rem;
 }
@@ -213,7 +222,7 @@ footer {
 }
 
 p.footnote {
-    color: #777777;
+    color: #696969;
     font-size: 12px;
 }
 
@@ -225,12 +234,18 @@ p.footnote {
 
 h3.headline {
     margin-top: 0px;
+    margin-bottom: 32px;
     font-size: 1.25em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-img.banner {
-    width: 100%;
+.banner {
+    margin-bottom: 44px;
+}
+
+.banner-image {
+    border: 1px solid darkgray;
+    border-radius: 5px;
 }
 
 #projects table {
@@ -264,4 +279,142 @@ img.banner {
 
 .error-description {
     text-align: center;
+}
+
+/*=== Video ===*/
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe, img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-wrapper img {
+    object-fit: contain;
+}
+
+/*=== Play Button ===*/
+
+.play {
+    cursor: pointer;
+}
+
+.play-button-container {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    top: 50%;
+    margin: -32px 0 0 -32px;
+    overflow: hidden;
+}
+
+.play-button-blur {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    overflow: hidden;
+    position: absolute;
+}
+
+.play-button-blur:before {
+    content: ‘’;
+    width: 89px;
+    height: 89px;
+    background: inherit; 
+    position: absolute;
+    left: -25px;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+    filter: blur(10px);
+}
+
+.play-image {
+    object-fit: contain;
+    position: absolute;
+
+    height: 30px;
+    width: 30px;
+
+    top: 50%;
+    left: 50%;  
+    margin: -15px 0 0 -14px;
+}
+
+/*=== Fonts ===*/
+
+/* catamaran-500 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Catamaran Medium'), local('Catamaran-Medium'),
+         url('../fonts/catamaran-v4-latin-500.woff2') format('woff2');
+}
+
+/* catamaran-700 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Catamaran Bold'), local('Catamaran-Bold'),
+         url('../fonts/catamaran-v4-latin-700.woff2') format('woff2');
+}
+
+/* catamaran-800 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Catamaran ExtraBold'), local('Catamaran-ExtraBold'),
+         url('../fonts/catamaran-v4-latin-800.woff2') format('woff2');
+}
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2');
+  }
+
+/* open-sans-italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'),
+         url('../fonts/open-sans-v15-latin-italic.woff2') format('woff2');
+}
+
+/* open-sans-600 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+         url('../fonts/open-sans-v15-latin-600.woff2') format('woff2');
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url('../fonts/open-sans-v15-latin-700.woff2') format('woff2');
 }

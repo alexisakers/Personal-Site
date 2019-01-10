@@ -2,26 +2,23 @@
 layout: default
 title: Alexis Aubry
 page_name: About
+lang: en
 ---
 
-Hi, I'm Alexis &#x1F44B;&#x1F3FB;
+Hi, I'm Alexis <span aria-hidden="true">👋🏻</span>
 
-I'm a software engineer at [Wire](https://wire.com/en/) in Berlin.
+<span aria-hidden="true">🇫🇷</span> I'm a French expat
 
-In my free time, I build apps for Apple platforms and work on open-source software.
-I am passionate about arts, design and science.
+<span aria-hidden="true">🐻</span> I live and work in Berlin
+
+<span aria-hidden="true">👨🏻‍💻</span> I'm an **engineer** on the <a href="https://wire.com" target="_blank">Wire</a> iOS app
+
+<span aria-hidden="true">🎓</span> I'm a **computer science student** at Paris-Lumières University
+
+<span aria-hidden="true">🎩</span> In my free time, I also wear my <a href="https://github.com/alexaubry" target="_blank">**OSS contributor**</a> and maintainer hat
+
+<span aria-hidden="true">💡</span> Machine learning, accessibility and modern user experiences are my favorite topics
 
 {% if site.available_for_hire %}
 I am currently looking for full-time software engineering position in {{ site.hiring_location }}.
 {% endif %}
-
-You can read my CV [here](/cv/Alexis_Aubry_CV_01-2018.pdf) (and [here in French](/cv/Alexis_Aubry_CV_01-2018_fr.pdf)).
-My open-source work can be found on [GitHub](https://github.com/alexaubry).
-
-## Featured Work
-
-{% assign featured_projects = site.data.projects | where:'isFeatured', "true" %}
-
-{% for project in featured_projects %}
-- [{{ project.name }}]({{ project.quick_url }}) : {{ project.headline }}
-{% endfor %}
