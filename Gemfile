@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6.2"
+gem "jekyll", "~> 3.8"
 
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-sitemap'
 end
 
