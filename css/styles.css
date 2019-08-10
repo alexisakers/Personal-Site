@@ -316,6 +316,7 @@ h3.headline {
     margin-left: auto; 
     margin-right: auto;
     margin-bottom: 44px;
+    position: relative;
 }
 
 .error-description {

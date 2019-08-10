@@ -18,6 +18,8 @@ tabs:
     path: "/"
   - title: "Work"
     path: "/work"
+  - title: "Talks"
+    path: "/talks"
   - title: "Contact"
     path: "/contact"
 
