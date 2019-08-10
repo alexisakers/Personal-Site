@@ -4,16 +4,16 @@ title: Alexis Aubry
 page_name: Work
 lang: en
 ---
-    
+
 <div id="projects">
-    <div class="topic-badge-container">
+    <h2 id="toc">Projects</h2>
+
+    <ul>
         {% for project in site.data.projects %}
-        {% if project.isFeatured == "true" %}
-        <div class="topic-badge" style="background: {{ project.tint }}" onclick="window.open('#{{ project.id }}', '_self')"><a class="no-border" style="color: {{ project.text }}" href="#{{ project.id }}">{{ project.name }}</a></div>
-        {% endif %}
+         <li><a href="#{{ project.id }}">{{ project.name }}</a></li>
         {% endfor %}
-    </div>
-    <a class="callout" href="https://github.com/alexaubry" target="_blank">More on Github</a>
+        <li> <a href="https://github.com/alexaubry" target="_blank">More on Github</a><span aria-hidden="true"> &rarr;</span></li>
+    </ul>
 
     {% for project in site.data.projects %}
     <table>

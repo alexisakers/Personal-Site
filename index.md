@@ -20,10 +20,3 @@ Hi, I'm Alexis <span aria-hidden="true">👋🏻</span>
 {% if site.available_for_hire %}
 <span aria-hidden="true">🔎</span> I am currently looking for full-time software engineering position in {{ site.hiring_location }}.
 {% endif %}
-
-## Talks
-
-<div id="talks">
-{% for talk in site.data.talks %}
-{% endfor %}    
-</div>

@@ -42,12 +42,12 @@ h2 {
 
 div.content {
     padding-top: 8px;
-    font-family: 'Inter UI';
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
 }
 
 nav, footer {
-    font-family: 'Inter UI';
+    font-family: 'Inter', sans-serif;
 }
 
 .hire-badge {
