@@ -5,9 +5,9 @@
   yt_video_id: eEnWEcnhUpc
   banner_needs_border: true
   ctas:
-     - title: Watch presentation
+     - title: Watch Presentation
        url: https://youtube.com/watch?v=eEnWEcnhUpc
-     - title: View slides
+     - title: View Slides
        url: https://speakerdeck.com/alexaubry/apps-in-the-background
   description_lines:
     - My first talk was at App Builders and focused on background execution in iOS apps. I presented information about

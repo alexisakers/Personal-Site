@@ -20,7 +20,7 @@ lang: en
         <tbody>
             <tr>
                 <td>
-                    {% include project.html project=project %}
+                    {% include item.html item=project %}
                 </td>
             </tr>
         </tbody>
