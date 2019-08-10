@@ -1,0 +1,39 @@
+<h2 id="{{ include.item.id }}">{{ include.item.name }}</h2>
+<h3 class="headline">{{ include.item.headline }}</h3>
+
+{% if include.item.banner_url %}
+<div class="banner">
+    <div class="video-wrapper">
+        {% if include.item.yt_video_id %}    
+        <div id="{{ include.item.yt_video_id }}" class="play" aria-role="button" aria-valuetext="Play video" onclick="loadEmbed('{{ include.item.yt_video_id }}')">
+            <img class="banner-image" src="{{ include.item.banner_url }}"/>
+            <div class="play-button-container">
+                <div class="play-button-blur">
+                    <img src="/assets/play-button.png" class="play-image"/>
+                </div>
+            </div>        
+        </div>
+        {% else %}
+            {% if include.item.banner_needs_border == true %}
+            <img class="banner-image" src="{{ include.item.banner_url }}" alt="Presentation banner for {{ include.item.name }}"/>
+            {% else %}
+            <img src="{{ include.item.banner_url }}" alt="Presentation banner for {{ include.item.name }}"/>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
+{% endif %}
+
+{% for line in include.item.description_lines %}
+<p style="text-align: justify">{{ line }}</p>
+{% endfor %}
+
+<ul class="ctas">
+    {% for cta in include.item.ctas %}
+    <li>
+        <a href="{{ cta.url }}" target="_blank">{{ cta.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<div class="separator"></div>
