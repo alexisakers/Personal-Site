@@ -1,0 +1,15 @@
+- name: Apps in the Background
+  id: apps-in-background
+  headline: "App Builders Switzerland"
+  banner_url: /assets/talk-banners/AppsInBackground-Banner.png
+  yt_video_id: eEnWEcnhUpc
+  banner_needs_border: true
+  ctas:
+     - title: Watch Presentation
+       url: https://youtube.com/watch?v=eEnWEcnhUpc
+     - title: View Slides
+       url: https://speakerdeck.com/alexaubry/apps-in-the-background
+  description_lines:
+    - My first talk was at App Builders and focused on background execution in iOS apps. I presented information about
+      the app lifecycle, available system APIs and design patterns and considerations that developers need to have in
+      mind to improve the overall experience of users, even when they don't interact with our apps.

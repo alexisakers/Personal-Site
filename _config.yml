@@ -5,7 +5,7 @@ copright_years: "2017 &ndash; 2019"
 url: "https://alexaubry.fr"
 
 description: >-
-  Hey, I'm Alexis! I'm a French software engineer and CS student.
+  Hey, I'm Alexis! I'm a French software engineer living in Berlin.
   I build apps for Apple platforms and work on open source projects.
 
 twitter_username: _alexaubry
@@ -16,8 +16,10 @@ markdown: kramdown
 tabs:
   - title: "About"
     path: "/"
-  - title: "Projects"
-    path: "/projects"
+  - title: "Work"
+    path: "/work"
+  - title: "Talks"
+    path: "/talks"
   - title: "Contact"
     path: "/contact"
 
