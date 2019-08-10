@@ -14,10 +14,11 @@
             </div>        
         </div>
         {% else %}
-        {% if project.banner_needs_border == true %}
-        <img class="banner-image" src="{{ project.banner_url }}" alt="Presentation banner for {{ include.project.name }}"/>
-        {% endif %}
-        <img src="{{ project.banner_url }}" alt="Presentation banner for {{ include.project.name }}"/>
+            {% if project.banner_needs_border == true %}
+            <img class="banner-image" src="{{ project.banner_url }}" alt="Presentation banner for {{ include.project.name }}"/>
+            {% else %}
+            <img src="{{ project.banner_url }}" alt="Presentation banner for {{ include.project.name }}"/>
+            {% endif %}
         {% endif %}
     </div>
 </div>

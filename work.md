@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alexis Aubry
-page_name: Projects
+page_name: Work
 lang: en
 ---
     

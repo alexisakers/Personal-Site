@@ -1,3 +1,17 @@
+ - name: Wire
+   isFeatured: "false"
+   tint: "black"
+   text: "white"
+   id: "wire"
+   headline: "Secure team collaboration platform"
+   description_lines:
+    - "Between 2018 and 2019, I was part of the Wire iOS team.  I worked
+     on calling and productivity features, as well as architecture refinements."
+    - "One of the things I am the most proud of is having led efforts to introduce accessibility 
+    standards and automated accessibility tests, a topic I care deeply about."
+    - "During my time at Wire, I also learned about end-to-end encryption, security and privacy in-depth."
+   banner_url:  /assets/banners/Wire-Banner.png
+   banner_needs_border: true
  - name: ScaleBook
    isFeatured: "true"
    tint: "#4153AF"
@@ -65,27 +79,3 @@
      collection views to create a unique experience for their apps."
      - "Building and maintaining BulletinBoard, I extended my knowledge about Auto Layout, view  
      controller transitions and API design."
-
- - name: JavaScriptKit
-   isFeatured: "true"
-   tint: "#F7DF20"
-   text: "black"
-   id: "javascriptkit"
-   headline: JavaScriptCore replacement for WKWebView
-   quick_url: https://github.com/alexaubry/JavaScriptKit
-   ctas:
-     - title: View source on GitHub
-       url: https://github.com/alexaubry/JavaScriptKit
-   description_lines: 
-     - "JavaScriptKit provides a type-safe interface to the JavaScript runtime for WebKit views.
-     It handles global functions, variables and custom scripts."
-
- - name: HTMLString
-   isFeatured: "false"
-   headline: HTML escaping and unescaping in Swift
-   ctas:
-     - title: View source on GitHub
-       url: https://github.com/alexaubry/HTMLString
-   description_lines:
-     - "HTMLString is a Swift library that escapes and unescapes HTML sequences, such as <code>&#38;amp;</code>.
-     I wrote it to power a server-side RSS parser and push notifications server."

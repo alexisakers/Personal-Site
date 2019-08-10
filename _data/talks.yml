@@ -1,0 +1,9 @@
+- title: Apps in the Background
+  conference: App Builders Switzerland
+  date: April 2019
+  poster: https://www.youtube.com/watch?v=eEnWEcnhUpc
+  video: https://www.youtube.com/watch?v=eEnWEcnhUpc
+  description:
+    - My first talk was at App Builders and focused on background execution in iOS apps. I presented information about
+      the app lifecycle, available system APIs and design patterns and considerations that developers need to have in
+      mind to improve the overall experience of users, even when they don't interact with our apps.
